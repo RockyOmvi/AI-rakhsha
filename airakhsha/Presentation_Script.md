@@ -11,7 +11,7 @@
 
 **[DURATION: 30 seconds]**
 
-> "Good [morning/afternoon], everyone. My name is Purusharth, and today I'm presenting **AI Raksha** — an AI-powered women's safety mobile application.
+> "Good [morning/afternoon], everyone. My name is Ritika Raj, and today I'm presenting **AI Raksha** — an AI-powered women's safety mobile application.
 >
 > The word 'Raksha' means *protection* in Hindi. And that's exactly what this app does — it turns every smartphone into an intelligent, personal safety shield.
 >
