@@ -1,6 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../features/auth/screens/login_screen.dart';
 import '../../features/auth/screens/register_screen.dart';
@@ -12,20 +11,27 @@ import '../../features/contacts/screens/contacts_screen.dart';
 import '../../features/history/screens/history_screen.dart';
 import '../../features/onboarding/screens/onboarding_screen.dart';
 
-final onboardingCompleteProvider = FutureProvider<bool>((ref) async {
-  final prefs = await SharedPreferences.getInstance();
-  return prefs.getBool('onboarding_complete') ?? false;
+/// Synchronous state — initialised from SharedPreferences in main.dart
+/// before runApp, so it is always correct and never has a "loading" gap.
+class OnboardingNotifier extends Notifier<bool> {
+  @override
+  bool build() => false;
+
+  void markComplete() => state = true;
+}
+
+final onboardingCompleteProvider = NotifierProvider<OnboardingNotifier, bool>(() {
+  return OnboardingNotifier();
 });
 
 final appRouterProvider = Provider<GoRouter>((ref) {
   final authAsync = ref.watch(authProvider);
-  final onboardingAsync = ref.watch(onboardingCompleteProvider);
+  final onboardingDone = ref.watch(onboardingCompleteProvider);
 
   final authState = authAsync.value;
-  final onboardingDone = onboardingAsync.value ?? false;
 
   return GoRouter(
-    initialLocation: '/onboarding',
+    initialLocation: onboardingDone ? '/login' : '/onboarding',
     redirect: (context, state) {
       final loc = state.matchedLocation;
       final isOnboarding = loc == '/onboarding';
