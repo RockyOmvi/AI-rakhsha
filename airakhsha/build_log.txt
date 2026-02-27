@@ -1,0 +1,59 @@
+﻿Running Gradle task 'assembleDebug'...                          
+flutter : 
+At line:1 char:1
++ flutter build apk 
+--debug 2>&1 | 
+Out-File -Encoding 
+utf8 "d:\AI rakhs ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (:String) [],    
+ RemoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+FAILURE: Build failed 
+with an exception.
+
+* What went wrong:
+Execution failed for 
+task ':flutter_sms:comp
+ileDebugKotlin'.
+> Inconsistent 
+JVM-target 
+compatibility detected 
+for tasks 'compileDebug
+JavaWithJavac' (1.8) 
+and 
+'compileDebugKotlin' 
+(21).
+
+  Consider using JVM 
+Toolchain: https://kotl
+.in/gradle/jvm/toolchai
+n
+  Learn more about 
+JVM-target validation: 
+https://kotl.in/gradle/
+jvm/target-validation 
+
+* Try:
+> Run with 
+--stacktrace option to 
+get the stack trace.
+> Run with --info or 
+--debug option to get 
+more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at http
+s://help.gradle.org.
+
+BUILD FAILED in 15s
+Running Gradle task 'assembleDebug'...                             16.1s
+Gradle task 
+assembleDebug failed 
+with exit code 1

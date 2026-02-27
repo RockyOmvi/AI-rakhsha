@@ -1,0 +1,49 @@
+﻿Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
+Running Gradle task 'assembleDebug'...                          
+flutter : 
+At line:1 char:1
++ flutter run 2>&1 | 
+Out-File -Encoding 
+utf8 "d:\AI 
+rakhsha\airakhsha\b ...
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (:String) [],    
+ RemoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+FAILURE: Build failed 
+with an exception.
+
+* Where:
+Build file 'D:\AI rakhs
+ha\airakhsha\android\bu
+ild.gradle.kts' line: 
+22
+
+* What went wrong:
+Cannot run Project.afte
+rEvaluate(Action) when 
+the project is already 
+evaluated.
+
+* Try:
+> Run with 
+--stacktrace option to 
+get the stack trace.
+> Run with --info or 
+--debug option to get 
+more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at http
+s://help.gradle.org.
+
+BUILD FAILED in 2s
+Running Gradle task 'assembleDebug'...                           2,585ms
+Error: Gradle task 
+assembleDebug failed 
+with exit code 1

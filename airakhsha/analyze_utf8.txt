@@ -1,0 +1,84 @@
+Analyzing airakhsha...                                          
+
+warning - Unused import: 'package:flutter/material.dart' - lib\core\router\app_router.dart:1:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\core\services\location_service.dart:10:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\core\services\location_service.dart:18:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\core\services\location_service.dart:24:7 - avoid_print
+   info - 'desiredAccuracy' is deprecated and shouldn't be used. use settings parameter with AndroidSettings, AppleSettings, WebSettings, or LocationSettings - lib\core\services\location_service.dart:29:9 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\core\services\sms_service.dart:10:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\core\services\sms_service.dart:12:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\core\services\sms_service.dart:17:9 - avoid_print
+  error - Classes can only extend other classes - lib\features\auth\providers\auth_provider.dart:24:28 - extends_non_class
+  error - Too many positional arguments: 0 expected, but 1 found - lib\features\auth\providers\auth_provider.dart:27:42 - extra_positional_arguments
+  error - Undefined name 'state' - lib\features\auth\providers\auth_provider.dart:34:9 - undefined_identifier
+  error - Undefined name 'state' - lib\features\auth\providers\auth_provider.dart:36:9 - undefined_identifier
+  error - Undefined name 'state' - lib\features\auth\providers\auth_provider.dart:42:5 - undefined_identifier
+  error - Undefined name 'state' - lib\features\auth\providers\auth_provider.dart:42:13 - undefined_identifier
+  error - Undefined name 'state' - lib\features\auth\providers\auth_provider.dart:46:7 - undefined_identifier
+  error - Undefined name 'state' - lib\features\auth\providers\auth_provider.dart:46:15 - undefined_identifier
+  error - Undefined name 'state' - lib\features\auth\providers\auth_provider.dart:48:7 - undefined_identifier
+  error - Undefined name 'state' - lib\features\auth\providers\auth_provider.dart:48:15 - undefined_identifier
+  error - Undefined name 'state' - lib\features\auth\providers\auth_provider.dart:53:5 - undefined_identifier
+  error - Undefined name 'state' - lib\features\auth\providers\auth_provider.dart:53:13 - undefined_identifier
+  error - Undefined name 'state' - lib\features\auth\providers\auth_provider.dart:57:7 - undefined_identifier
+  error - Undefined name 'state' - lib\features\auth\providers\auth_provider.dart:57:15 - undefined_identifier
+  error - Undefined name 'state' - lib\features\auth\providers\auth_provider.dart:59:7 - undefined_identifier
+  error - Undefined name 'state' - lib\features\auth\providers\auth_provider.dart:59:15 - undefined_identifier
+  error - The function 'StateNotifierProvider' isn't defined - lib\features\auth\providers\auth_provider.dart:68:22 - undefined_function
+  error - Classes can only extend other classes - lib\features\emergency\providers\emergency_provider.dart:64:33 - extends_non_class
+  error - Too many positional arguments: 0 expected, but 1 found - lib\features\emergency\providers\emergency_provider.dart:77:31 - extra_positional_arguments
+  error - The named parameter 'onSosReceived' is required, but there's no corresponding argument - lib\features\emergency\providers\emergency_provider.dart:83:24 - missing_required_argument
+  error - The named parameter 'onSosTriggered' isn't defined - lib\features\emergency\providers\emergency_provider.dart:83:44 - undefined_named_parameter
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:93:5 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:93:13 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:102:5 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:102:13 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:111:5 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:111:13 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:120:5 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:120:13 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:124:9 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:130:9 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:132:5 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:132:13 - undefined_identifier
+   info - Don't invoke 'print' in production code - lib\features\emergency\providers\emergency_provider.dart:133:5 - avoid_print
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:136:9 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:142:5 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:142:13 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:149:7 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:149:15 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:153:28 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:154:52 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:159:7 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:159:15 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:164:9 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:164:17 - undefined_identifier
+   info - Don't invoke 'print' in production code - lib\features\emergency\providers\emergency_provider.dart:165:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\features\emergency\providers\emergency_provider.dart:175:5 - avoid_print
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:182:9 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:187:9 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:188:48 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:191:5 - undefined_identifier
+  error - Undefined name 'state' - lib\features\emergency\providers\emergency_provider.dart:191:13 - undefined_identifier
+   info - Don't invoke 'print' in production code - lib\features\emergency\providers\emergency_provider.dart:192:5 - avoid_print
+warning - The method doesn't override an inherited method - lib\features\emergency\providers\emergency_provider.dart:196:8 - override_on_non_overriding_member
+  error - The method 'dispose' isn't defined in a superclass of 'EmergencyNotifier' - lib\features\emergency\providers\emergency_provider.dart:203:11 - undefined_super_member
+  error - The function 'StateNotifierProvider' isn't defined - lib\features\emergency\providers\emergency_provider.dart:207:27 - undefined_function
+  error - Abstract classes can't be instantiated - lib\features\emergency\services\audio_recorder_service.dart:6:33 - instantiate_abstract_class
+warning - The value of the field '_chunkCounter' isn't used - lib\features\emergency\services\audio_recorder_service.dart:8:7 - unused_field
+  error - The method 'hasPermission' isn't defined for the type 'Record' - lib\features\emergency\services\audio_recorder_service.dart:14:30 - undefined_method
+  error - The method 'start' isn't defined for the type 'Record' - lib\features\emergency\services\audio_recorder_service.dart:42:26 - undefined_method
+  error - The method 'stop' isn't defined for the type 'Record' - lib\features\emergency\services\audio_recorder_service.dart:55:47 - undefined_method
+  error - The method 'stop' isn't defined for the type 'Record' - lib\features\emergency\services\audio_recorder_service.dart:71:47 - undefined_method
+  error - The method 'dispose' isn't defined for the type 'Record' - lib\features\emergency\services\audio_recorder_service.dart:89:20 - undefined_method
+   info - The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/foundation.dart' - lib\features\emergency\services\shake_detector_service.dart:1:8 - unnecessary_import
+  error - The argument type 'void Function()' can't be assigned to the parameter type 'PhoneShakeCallback'.  - lib\features\emergency\services\shake_detector_service.dart:15:21 - argument_type_not_assignable
+warning - The exception variable 'err' isn't used, so the 'catch' clause can be removed - lib\features\emergency\services\voice_activation_service.dart:32:36 - unused_catch_clause
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\emergency\widgets\sos_button.dart:75:37 - deprecated_member_use
+  error - The named parameter 'onDidReceiveLocalNotification' isn't defined - lib\features\location\services\anomaly_detector.dart:17:13 - undefined_named_parameter
+  error - The named parameter 'settings' is required, but there's no corresponding argument - lib\features\location\services\anomaly_detector.dart:22:32 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\features\location\services\anomaly_detector.dart:23:7 - extra_positional_arguments_could_be_named
+  error - The named parameter 'id' is required, but there's no corresponding argument - lib\features\location\services\anomaly_detector.dart:67:32 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 4 found - lib\features\location\services\anomaly_detector.dart:68:7 - extra_positional_arguments_could_be_named
+
+80 issues found. (ran in 1.4s)
